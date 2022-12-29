@@ -3,7 +3,7 @@ nav {
   position: absolute;
   width: 100%;
   display: flex;
-  background: rgba(0, 0, 0, 0.452);
+  background: var(--transparent);
   height: 3rem; 
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   margin: 0 7px;
   padding: 5px;
@@ -28,8 +28,8 @@ nav a {
 }
 
 nav a:hover {
-  background: #fff;
-  color: black;
+  background: var(--white);
+  color: var(--black);
   font-weight: 500;
 }
 
@@ -70,7 +70,7 @@ nav a:hover {
   max-width:100%;
   padding: 1.875rem;
   margin: 0 auto;
-  background: white;
+  background: var(--white);
   height: 20rem;
 }
   
@@ -83,32 +83,12 @@ nav a:hover {
 .carrocel h1 {
   text-align: center;
 }
-/*-----botão das empresas-----------------------------------------------------------------------*/
-
-.acesso {
-  height: 13rem;
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.botaoVigorSeaside {
-  height: 100%;
-  width: 15rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-}
-.botaoVigorSeaside img {
-  height: 12rem;
-}
 
 /*---------quem somos---------------------------------------------------------------------------------*/
 
 .quemSomos {
-  background: rgb(53, 51, 51);
-  color: white;
+  background: var(--gray-300);
+  color: var(--white);
 }
 
 .quemSomos h1 {
@@ -129,6 +109,74 @@ nav a:hover {
   box-shadow: 0px 0px 2px black;
 }
 
+/*-----botão das empresas-----------------------------------------------------------------------*/
+
+.acesso {
+  height: 13rem;
+  width: 100%;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.botaoVigorSeaside {
+  height: 100%;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.botaoVigorSeaside img {
+  height: 12rem;
+}
+
+@media (max-width: 400px) {
+  .acesso {
+    display: block;
+    height: 100%;
+    margin: 2rem;
+  }
+}
+
+/*---------idealizadores---------------------------------------------------------------------------------*/
+
+.idealizadores {
+  background: var(--gray-300);
+  color: var(--white);
+}
+
+.israel h1 {
+  text-align: center;
+  padding: 1rem;
+}
+.imgText {
+  display: flex;
+}
+.imgText p {
+  text-align: justify;
+  margin: 8rem 2rem 8rem 2rem;
+}
+.israel img {
+  margin-left: 1rem;
+  height: 20rem;
+}
+
+.rafaela h1 {
+  text-align: center;
+  padding: 1rem;
+}
+.imgText {
+  display: flex;
+}
+.imgText p {
+  text-align: justify;
+  margin: 8rem 2rem 8rem 2rem;
+}
+.rafaela img {
+  margin-right: 1rem;
+  height: 20rem;
+}
 /*---------local---------------------------------------------------------------------------------*/
 
 .local {
@@ -143,8 +191,8 @@ nav a:hover {
 /*---------parceiros---------------------------------------------------------------------------------*/
 
 .parceiros {
-  background: rgb(53, 51, 51);
-  color: white;
+  background: var(--gray-300);
+  color: var(--white);
   text-align: center;
   height: 20rem;
 }

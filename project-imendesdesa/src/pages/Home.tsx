@@ -38,17 +38,38 @@ export function Home() {
         </div>
       </div>
 
-      <div className={styles.acesso}>
-        <a href="/Vigor">
-          <div className={styles.botaoVigorSeaside}>
-            <img src="../img/logo-vigor-preto.png" alt="body training" />
+      <div>
+        <h1>SERVIÇOS</h1>
+        <div className={styles.acesso}>
+          <a href="/Vigor">
+            <div className={styles.botaoVigorSeaside}>
+              <img src="../img/logo-vigor-preto.png" alt="body training" />
+            </div>
+          </a>
+          
+          <a href="/Seaside">
+            <div className={styles.botaoVigorSeaside}>
+              <img src="../img/logo-branca-seaside.png" alt="educacional" />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div className={styles.idealizadores}>
+        <div className={styles.israel}>
+          <h1>Israel</h1>
+          <div className={styles.imgText}>
+            <img src="../img/israel.png" alt="israel" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a eaque consequuntur quas nobis totam ut aliquid dolorem labore quos ex velit maxime aspernatur, recusandae ipsa voluptatem illo numquam officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta inventore atque repudiandae vero voluptas fuga voluptate. Amet impedit numquam consequatur corrupti, aut incidunt, deleniti, odit voluptatibus natus nulla accusantium.</p>
           </div>
-        </a>
-        <a href="/Seaside">
-          <div className={styles.botaoVigorSeaside}>
-            <img src="../img/logo-branca-seaside.png" alt="educacional" />
+        </div>
+        <div className={styles.rafaela}>
+          <h1>Rafaela</h1>
+          <div className={styles.imgText}>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi similique, delectus maxime nam illum amet incidunt dolor quia nemo quo. Possimus doloribus eligendi tempore iure dicta quos doloremque harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe quis distinctio dicta accusamus repellat tenetur aperiam, tempore necessitatibus, nulla fuga. Quibusdam nemo repudiandae atque voluptatem rerum ipsum molestias enim!</p>
+            <img src="../img/rafaela.png" alt="rafaela" />
           </div>
-        </a>
+        </div>
       </div>
 
       <div className={styles.local}>
