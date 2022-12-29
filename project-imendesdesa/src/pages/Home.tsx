@@ -8,8 +8,8 @@ export function Home() {
       <div id="cabecalho">
       </div>
       <div id="title">
-        <video src="../img/video-principal.mp4" autoPlay loop muted></video>
-        <img src="../img/logo-3.png" alt="instituto" />
+        <video src="../assets/video-principal.mp4" autoPlay loop muted></video>
+        <img src=".../assets/logo-3.png" alt="instituto" />
       </div> 
 
       <div id="carrocel">
