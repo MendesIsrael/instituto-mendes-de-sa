@@ -1,0 +1,39 @@
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.452);
+  height: 3rem; 
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+nav img {
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+nav li {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 7px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: #fff;
+  color: black;
+  font-weight: 500;
+}
+
+#contato {
+  position: absolute;
+  display: flex;
+  margin-left: 80%;
+}
