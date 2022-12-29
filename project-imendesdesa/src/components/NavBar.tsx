@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom'
-import styles from '.NavBar.module.css'
 
 export function NavBar() {
   return (
@@ -7,7 +6,7 @@ export function NavBar() {
       <li><NavLink to="/">home</NavLink></li>
       <li><NavLink to="/Vigor">vigor</NavLink></li>
       <li><NavLink to="/seaside">seaside</NavLink></li>
-      <div id='contato'>
+      <div id="contato">
       <img src="../img/whatsapp.png" alt="whatsapp" />
       <img src="../img/instagram.png" alt="instagram" />
       <img src="../img/facebook.png" alt="facebook" />

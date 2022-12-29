@@ -1,4 +1,3 @@
-import { Home } from './pages/Home'
 import { RoutePages } from './components/RouterPages'
 import { BrowserRouter } from 'react-router-dom'
 import { NavBar } from './components/NavBar'
