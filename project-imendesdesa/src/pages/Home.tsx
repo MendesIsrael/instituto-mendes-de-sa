@@ -14,11 +14,17 @@ export function Home() {
       <div className={styles.carrocel}>
         <h1>NOTÍCIAS</h1>
         <Carousel pause="hover">
-          <Carousel.Item interval={1500}>
-            <p>ojihiugiyuoduysouyygcouygosaffoa</p>
+          <Carousel.Item interval={2500}>
+            <img src="../img/Pavimento-1.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
           </Carousel.Item>
-          <Carousel.Item interval={1500}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, perferendis eaque autem dolorem quo unde assumenda dolores architecto quod mollitia odio explicabo hic illo et quibusdam. Corrupti laboriosam placeat accusamus.</p>
+          <Carousel.Item interval={2500}>
+            <img src="../img/Pavimento-2.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
+          </Carousel.Item>
+          <Carousel.Item interval={2500}>
+            <img src="../img/Pavimento-3.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
           </Carousel.Item>
         </Carousel>
       </div> 
@@ -38,33 +44,35 @@ export function Home() {
         </div>
       </div>
 
-      <div>
+      <div className={styles.servicos}>
         <h1>SERVIÇOS</h1>
+        <h6>PREPARAÇÃO DO CORPO E MENTE DAS PESSOAS.</h6>
         <div className={styles.acesso}>
-          <a href="/Vigor">
-            <div className={styles.botaoVigorSeaside}>
+          <div className={styles.botaoVigorSeaside}>
+            <a href="/Vigor">
               <img src="../img/logo-vigor-preto.png" alt="body training" />
-            </div>
-          </a>
-          
-          <a href="/Seaside">
-            <div className={styles.botaoVigorSeaside}>
+            </a>
+            <p>A Vigor Body Training te ajudará na preparação do seu corpo para você alcançar os seus objetivos. Utilizaremos as modalidades de Pilates, funcional, hidroginástica e lutas para promover o seu desenvolvimento corporal.</p>
+          </div>
+          <div className={styles.botaoVigorSeaside}>
+            <a href="/Seaside">
               <img src="../img/logo-branca-seaside.png" alt="educacional" />
-            </div>
-          </a>
+            </a>
+            <p>A Seaside te ajudará na preparação da sua mente para você alcançar os seus objetivos. Utilizaremos as modalidades de palestras presenciais e cursos online para promover a sua capacitação intelectual.</p>
+          </div>
         </div>
       </div>
 
       <div className={styles.idealizadores}>
         <div className={styles.israel}>
-          <h1>Israel</h1>
+          <h1>Israel Mendes</h1>
           <div className={styles.imgText}>
             <img src="../img/israel.png" alt="israel" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a eaque consequuntur quas nobis totam ut aliquid dolorem labore quos ex velit maxime aspernatur, recusandae ipsa voluptatem illo numquam officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta inventore atque repudiandae vero voluptas fuga voluptate. Amet impedit numquam consequatur corrupti, aut incidunt, deleniti, odit voluptatibus natus nulla accusantium.</p>
           </div>
         </div>
         <div className={styles.rafaela}>
-          <h1>Rafaela</h1>
+          <h1>Rafaela de Sá</h1>
           <div className={styles.imgText}>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi similique, delectus maxime nam illum amet incidunt dolor quia nemo quo. Possimus doloribus eligendi tempore iure dicta quos doloremque harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe quis distinctio dicta accusamus repellat tenetur aperiam, tempore necessitatibus, nulla fuga. Quibusdam nemo repudiandae atque voluptatem rerum ipsum molestias enim!</p>
             <img src="../img/rafaela.png" alt="rafaela" />

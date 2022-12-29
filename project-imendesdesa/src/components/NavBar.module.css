@@ -1,0 +1,48 @@
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background: var(--transparent);
+  height: 3rem; 
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+nav img {
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+nav li {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  margin: 0 7px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: var(--white);
+  color: var(--black);
+  font-weight: 500;
+}
+
+.contato {
+  position: absolute;
+  display: flex;
+  margin-left: 80%;
+}
+
+.contato a {
+  margin: 0 0.5px;
+  padding: 2px;
+}
+.contato a:hover {
+  background: var(--black);
+  transition: 1s;
+}

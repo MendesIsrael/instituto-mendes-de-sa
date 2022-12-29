@@ -1,43 +1,3 @@
-/*-----menu-----------------------------------------------------------------------*/
-nav {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  background: var(--transparent);
-  height: 3rem; 
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-}
-nav img {
-  height: 1rem;
-  margin: 0.5rem;
-}
-
-nav li {
-  display: flex;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--white);
-  text-transform: uppercase;
-  margin: 0 7px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-nav a:hover {
-  background: var(--white);
-  color: var(--black);
-  font-weight: 500;
-}
-
-#contato {
-  position: absolute;
-  display: flex;
-  margin-left: 80%;
-}
 
 /*-----logo principal-----------------------------------------------------------------------*/
 
@@ -67,11 +27,12 @@ nav a:hover {
 
 .carrocel {
   display: block;
-  max-width:100%;
+  max-width:40%;
   padding: 1.875rem;
   margin: 0 auto;
   background: var(--white);
-  height: 20rem;
+  height: 30rem;
+  text-align: center;
 }
   
 @media (max-width: 400px) {
@@ -80,15 +41,12 @@ nav a:hover {
   }
 }
 
-.carrocel h1 {
-  text-align: center;
-}
-
 /*---------quem somos---------------------------------------------------------------------------------*/
 
 .quemSomos {
   background: var(--gray-300);
   color: var(--white);
+  padding-top: 2rem;
 }
 
 .quemSomos h1 {
@@ -110,9 +68,15 @@ nav a:hover {
 }
 
 /*-----botão das empresas-----------------------------------------------------------------------*/
-
+.servicos {
+  height: 30rem;
+}
+.servicos h1, h6 {
+  text-align: center;
+  margin: 2rem;
+}
 .acesso {
-  height: 13rem;
+  height: 100%;
   width: 100%;
   display: flex;
   gap: 5rem;
@@ -121,14 +85,15 @@ nav a:hover {
 
 .botaoVigorSeaside {
   height: 100%;
-  width: 15rem;
-  display: flex;
+  width: 30rem;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  text-align: justify;
 }
 .botaoVigorSeaside img {
   height: 12rem;
+  position: relative;
+  margin: 0px 25% 10px 25%;
 }
 
 @media (max-width: 400px) {
@@ -153,35 +118,29 @@ nav a:hover {
 .imgText {
   display: flex;
 }
-.imgText p {
-  text-align: justify;
-  margin: 8rem 2rem 8rem 2rem;
-}
+
 .israel img {
   margin-left: 1rem;
-  height: 20rem;
+  height: 15rem;
 }
 
 .rafaela h1 {
   text-align: center;
-  padding: 1rem;
 }
-.imgText {
-  display: flex;
-}
+
 .imgText p {
   text-align: justify;
-  margin: 8rem 2rem 8rem 2rem;
+  margin: 5rem 2rem 8rem 2rem;
 }
 .rafaela img {
   margin-right: 1rem;
-  height: 20rem;
+  height: 15rem;
 }
 /*---------local---------------------------------------------------------------------------------*/
 
 .local {
   text-align: center;
-  box-shadow: 0px 0px 2px black;
+  margin-top: 25px;
 }
 
 .local iframe {
