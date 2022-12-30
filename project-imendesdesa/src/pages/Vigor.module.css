@@ -3,6 +3,12 @@
   color: var(--white);
 }
 
+.body > h1 {
+  padding: 10rem;
+  text-align: center;
+  text-shadow: 1px 1px 3px var(--green-200);
+}
+
 .titleVigor {
   min-height: 35rem;
   top: 0;
@@ -23,4 +29,45 @@
   position: absolute;
   height: 30rem;
   margin-top: 1.5rem;
+}
+
+.modalidades {
+  background: var(--green-500);
+}
+
+.modalidades h2 {
+  text-decoration: underline;
+  padding: 3rem 0 8rem 0;
+  text-align: center;
+}
+
+.bodyModalidades {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.atividades {
+  width: 18rem;
+  height: 25rem;
+  box-shadow: 2px 2px 8px var(--black);
+  background: var(--white);
+  color: var(--black);
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden
+}
+.atividades img {
+  width: 18rem;
+}
+.atividades h1 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 8px;
+  background: var(--black);
+  color: var(--green-200);
+  text-align: center;
+}
+.atividades p {
+  padding: 10px;
+  text-align: justify;
 }

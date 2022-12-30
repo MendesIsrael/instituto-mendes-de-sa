@@ -31,7 +31,7 @@ export function Home() {
 
       <div className={styles.quemSomos}>
         <h1>QUEM SOMOS</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident, velit voluptatem laborum aspernatur debitis quae deserunt accusamus accusantium harum dolorem quisquam, libero sapiente! Nemo asperiores molestiae assumenda iure architecto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos tempora voluptate quidem at natus, maiores distinctio eveniet perferendis doloremque officia laborum dignissimos eum unde tempore! Accusantium cupiditate quidem aliquam distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi ratione temporibus autem aut officia deserunt ad, quas distinctio modi, aliquam vero? Earum, possimus in itaque quae nisi temporibus fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis officia accusamus totam doloribus obcaecati. Cupiditate qui earum, sequi corrupti dolor animi sit iure libero omnis? Ad pariatur eaque quod facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque ducimus sunt pariatur maxime porro itaque ratione quas quisquam minima aspernatur minus, sed natus dolore sapiente facilis libero laboriosam fuga?</p>
+        <p>O instituto Mendes de Sá tem está focado na educação e na divulgação científica e no desenvolvimento do corpo humano para melhorar a performance. Tem como diferencial a organização de cursos com aulas teórias e práticas; a estimulação da correção postural, do vigor físico, na prevenção de lesões e fortalecimento muscular. fundada em Maio de 2022 por Israel Mendes e Rafaela de Sá, adiministratores do instituto.  </p>
         <div className={styles.missaoVisao}>
           <div className={styles.visao}>
             <h1>Visão</h1>
@@ -67,15 +67,19 @@ export function Home() {
         <div className={styles.israel}>
           <h1>Israel Mendes</h1>
           <div className={styles.imgText}>
-            <img src="../img/israel.png" alt="israel" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a eaque consequuntur quas nobis totam ut aliquid dolorem labore quos ex velit maxime aspernatur, recusandae ipsa voluptatem illo numquam officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta inventore atque repudiandae vero voluptas fuga voluptate. Amet impedit numquam consequatur corrupti, aut incidunt, deleniti, odit voluptatibus natus nulla accusantium.</p>
+            <a href="https://www.instagram.com/mendesisrael97/" target="_blank">
+              <img src="../img/israel.png" alt="israel" />
+            </a>
+            <p>O idealizador Israel, formado em bacharel e licenciatura de educação física no Centro Universitário São José; está cursando o ensino superior de ciência da computação na Descomplica e formado nos cursos de excel básico; organização e produtividade; técnicas e ferramentas para gestão de projetos e produtos; introdução ao desenvolvimento web; desenvolvimento web HTML5 + CSS3; micro empreendedor individual; e, sargento do exécito brasileiro da brigada de infataria paraquedista, é casado com a Sr Rafaela de Sá.</p>
           </div>
         </div>
         <div className={styles.rafaela}>
           <h1>Rafaela de Sá</h1>
           <div className={styles.imgText}>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi similique, delectus maxime nam illum amet incidunt dolor quia nemo quo. Possimus doloribus eligendi tempore iure dicta quos doloremque harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe quis distinctio dicta accusamus repellat tenetur aperiam, tempore necessitatibus, nulla fuga. Quibusdam nemo repudiandae atque voluptatem rerum ipsum molestias enim!</p>
-            <img src="../img/rafaela.png" alt="rafaela" />
+            <a href="https://www.instagram.com/rafaelasacoelho/" target="_blank">
+              <img src="../img/rafaela.png" alt="rafaela" />
+            </a>
           </div>
         </div>
       </div>
@@ -88,6 +92,9 @@ export function Home() {
 
       <div className={styles.parceiros}>
         <h1>PARCEIROS</h1>
+        <a href="https://www.instagram.com/rc_arkhidesign/" target="_blank">
+          <img src="../img/arkhi-design.png" alt="arkhi design" />
+        </a>
       </div>
     </section>
   )
