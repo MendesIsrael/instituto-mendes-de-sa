@@ -40,6 +40,10 @@ export function Vigor() {
             </div>
           </div>
         </div>
+
+        <div className={styles.pacotes}>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsa consequatur voluptate, libero distinctio recusandae ipsam accusantium suscipit aperiam? Neque ipsum non, praesentium dignissimos blanditiis sed quaerat eaque itaque delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores blanditiis eligendi saepe neque aliquam necessitatibus soluta rerum accusamus illum, consectetur magni repudiandae autem. Quis accusamus explicabo ab minus nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita vel beatae voluptatem, deserunt harum sapiente illo vitae maiores quaerat, praesentium iure? Maiores eos vitae autem quia quod quo tenetur.</p>
+        </div>
       </div>
     </section>
   )
