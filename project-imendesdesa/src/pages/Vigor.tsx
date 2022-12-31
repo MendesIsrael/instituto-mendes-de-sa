@@ -1,3 +1,4 @@
+import { YinYang, Barbell, Check, ForkKnife, X } from 'phosphor-react';
 import styles from './Vigor.module.css';
 
 export function Vigor() {
@@ -19,6 +20,7 @@ export function Vigor() {
               <h1>PILATES</h1>
               <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.
               </p>
+              <button>saiba +</button>
             </div>
             <div className={styles.atividades}>
                 <img src="../img/hidroGinastica.jpg" alt="hidroginástica" />
@@ -42,7 +44,82 @@ export function Vigor() {
         </div>
 
         <div className={styles.pacotes}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsa consequatur voluptate, libero distinctio recusandae ipsam accusantium suscipit aperiam? Neque ipsum non, praesentium dignissimos blanditiis sed quaerat eaque itaque delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores blanditiis eligendi saepe neque aliquam necessitatibus soluta rerum accusamus illum, consectetur magni repudiandae autem. Quis accusamus explicabo ab minus nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita vel beatae voluptatem, deserunt harum sapiente illo vitae maiores quaerat, praesentium iure? Maiores eos vitae autem quia quod quo tenetur.</p>
+          <h1>Planos</h1>
+          <div className={styles.planos}>
+            <div className={styles.itens}>
+            <p className={styles.titlePacotes}></p><hr />
+            <p>Sem taxas de matrícula</p><hr />
+            <p>Acesso a todas as aulas coletivas</p><hr />
+            <p>Sem restrição de horários</p><hr />
+            <p>Aula experimental</p><hr />
+            <p>Acompanhamento nutricional</p><hr />
+            <p>Massagem de liberação mio facial</p><hr />
+            <p className={styles.precoPacotes}></p>
+            </div>
+            <div className={styles.pacoteDireitos}>
+            <p className={styles.titlePacotes}>PACOTE<br/>BRONZE</p><hr />
+            <p><Check/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p className={styles.precoPacotes}>R$ 100,00/mês</p>
+            </div>
+            <div className={styles.pacoteDireitos}>
+            <p className={styles.titlePacotes}>PACOTE<br/>PRATA</p><hr />
+            <p><Check/></p><hr />
+            <p><Check/></p><hr />
+            <p><Check/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p><X color="red"/></p><hr />
+            <p className={styles.precoPacotes}>R$ 300,00/mês</p>
+            </div>
+            <div className={styles.pacoteDireitos}>
+            <p className={styles.titlePacotes}>PACOTE<br/>OURO</p><hr />
+            <p><Check/></p><hr />
+            <p><Check/></p><hr />
+            <p><Check/></p><hr />
+            <p><Check/></p><hr />
+            <p><Check/></p><hr />
+            <p><Check/></p><hr />
+            <p className={styles.precoPacotes}>R$ 500,00/mês</p>
+            </div>
+          </div>
+          <div className={styles.areaAdicionais}>
+            <h1>SERVIÇOS ADICIONAIS</h1>
+            <div className={styles.pacotesAdicionais}>
+              <div className={styles.adicionais}>
+                <ForkKnife size={50} color="white"/>
+                <h2>Nutricionista</h2>
+                <p className={styles.explicacaoAdicionais}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem rerum architecto exercitationem laudantium aperiam quod similique? Dolorem quis magnam voluptates maxime saepe deleniti consequatur illum maiores, voluptatem, harum nihil!</p><hr />
+                <div className={styles.precoAdicionais}>
+                  <p>R$ 49,90/mês</p>
+                </div>
+              </div>
+              <div className={styles.adicionais}>
+                <YinYang size={50} color="white"/>
+                <h2>Massagista</h2>
+                <p className={styles.explicacaoAdicionais}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem rerum architecto exercitationem laudantium aperiam quod similique? Dolorem quis magnam voluptates maxime saepe deleniti consequatur illum maiores, voluptatem, harum nihil!</p><hr />
+                <div className={styles.precoAdicionais}>
+                  <p>R$ 49,90/mês</p>
+                </div>
+              </div>
+              <div className={styles.adicionais}>
+                <Barbell size={50} color="white"/>
+                <h2>Personal</h2>
+                <p className={styles.explicacaoAdicionais}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem rerum architecto exercitationem laudantium aperiam quod similique? Dolorem quis magnam voluptates maxime saepe deleniti consequatur illum maiores, voluptatem, harum nihil!</p><hr />
+                <div className={styles.precoAdicionais}>
+                  <p>R$ 49,90/mês</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.duvidas}>
+          DVIDAS
         </div>
       </div>
     </section>
