@@ -1,4 +1,6 @@
 import { YinYang, Barbell, Check, ForkKnife, X } from 'phosphor-react';
+import { Carousel } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
 import styles from './Vigor.module.css';
 
 export function Vigor() {
@@ -117,9 +119,8 @@ export function Vigor() {
             </div>
           </div>
         </div>
-
         <div className={styles.duvidas}>
-          DVIDAS
+          
         </div>
       </div>
     </section>
