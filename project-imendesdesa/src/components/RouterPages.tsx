@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 import { Home } from '../pages/Home'
 import { Vigor } from '../pages/Vigor'
 import { Seaside } from '../pages/Seaside'
+import { LoginVigor } from '../pages/LoginVigor'
+
 
 export function RoutePages() {
   return(
@@ -9,6 +11,7 @@ export function RoutePages() {
       <Route path='/' element={<Home/>}/>
       <Route path='/vigor' element={<Vigor/>}/>
       <Route path='/seaside' element={<Seaside/>}/>
+      <Route path='/loginvigor' element={<LoginVigor/>}/>
     </Routes>
   )
 }

@@ -1,4 +1,4 @@
-import { YinYang, Barbell, Check, ForkKnife, X } from 'phosphor-react';
+import { YinYang, Barbell, Check, ForkKnife, X, User, UserCircle } from 'phosphor-react';
 import { Carousel } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from './Vigor.module.css';
@@ -9,6 +9,7 @@ export function Vigor() {
       <div className={styles.titleVigor}>
         <video src="../img/video-principal-vigor.mp4" autoPlay loop muted></video>
         <img src="../img/logo-vigor.png" alt="vigor" />
+        <a className={styles.login} href="loginVigor">LOGIN <UserCircle height={30}/></a>
       </div>
 
       <div className={styles.body}>
