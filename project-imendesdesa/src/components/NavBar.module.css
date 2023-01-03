@@ -46,10 +46,3 @@ nav a:hover {
   background: var(--black);
   transition: 1s;
 }
-
-.login {
-  background: red;
-  position: relative;
-  display: flex;
-  justify-content: end;
-}

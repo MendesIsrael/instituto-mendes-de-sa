@@ -9,7 +9,7 @@ export function Vigor() {
       <div className={styles.titleVigor}>
         <video src="../img/video-principal-vigor.mp4" autoPlay loop muted></video>
         <img src="../img/logo-vigor.png" alt="vigor" />
-        <a className={styles.login} href="loginVigor">LOGIN <UserCircle height={30}/></a>
+        <a className={styles.login} href="loginVigor">LOGIN <UserCircle size={30}/></a>
       </div>
 
       <div className={styles.body}>

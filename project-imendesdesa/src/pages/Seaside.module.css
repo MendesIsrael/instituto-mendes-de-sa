@@ -19,3 +19,22 @@
   height: 25rem;
   margin-top: 5.5rem;
 }
+.login {
+  position: absolute;
+  margin: 3rem 1rem auto 90%;
+  color: white;
+  text-decoration: none;
+  background: var(--blue-500);
+  font-weight: bolder;
+  border-radius: 8px;
+  height: 2rem;
+  width: 7rem;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.2rem;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.11);
+}
+.login:hover {
+  background: var(--blue-200);
+  color: var(--black);
+}

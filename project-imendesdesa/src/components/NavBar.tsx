@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import styles from './NavBar.module.css'
+import { UserCircle } from 'phosphor-react';
 
 export function NavBar() {
   return (

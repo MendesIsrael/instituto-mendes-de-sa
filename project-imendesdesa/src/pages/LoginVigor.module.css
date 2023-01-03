@@ -1,3 +1,72 @@
-h1 {
-  background: red;
+/*.login {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to top, black , green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.formulario {
+  background: var(--black);
+  height: 23rem;
+  width: 20rem;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px var(--green-200); 
+}
+
+.titleFormulario {
+  background-image: url('img/logo-vigor.png');
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 55%;
+}
+
+.titleFormulario h1 {
+  text-align: center;
+  font-weight: 800;
+  color: var(--white);
+  margin: 1.5rem;
+}
+.titleFormulario p {
+  text-align: center;
+  font-weight: 800;
+  color: var(--white);
+  margin: 0;
+}
+
+form {
+  background: var(--white);
+  display: grid;
+  justify-content: center;
+  border-radius: 0 0 20px 20px;
+  margin-top: 1rem;
+}
+
+.campo > input {
+  margin: 0.2rem auto 0 auto;
+}
+
+form > input[type=submit] {
+  display: block;
+  font-size: 1rem;
+  margin: 0.5rem;
+  background: gray;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+}
+form > input[type=submit]:hover {
+  background: rgb(105, 105, 105);
+}
+
+form > a.botao {
+  display: block;
+  text-align: center;
+}
+
+div.campo > label {
+  display: none;
+}
+*/
