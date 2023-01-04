@@ -24,21 +24,20 @@
 }
 
 /*-----carousel de notícias-----------------------------------------------------------------------*/
-
-.carrocel {
-  display: block;
-  max-width:40%;
-  padding: 1.875rem;
-  margin: 0 auto;
-  background: var(--white);
-  height: 30rem;
-  text-align: center;
+.noticias{
+  display: flex;
+  justify-content: center;
+  height: 430px;
 }
-  
-@media (max-width: 400px) {
-.carrocel {
-    width: 1fr;
-  }
+.carousel {
+  display: block;
+  height: 400px;
+  width: 500px;
+  padding: 30px;
+}
+
+.carousel h1 {
+  text-align: center;
 }
 
 /*---------quem somos---------------------------------------------------------------------------------*/

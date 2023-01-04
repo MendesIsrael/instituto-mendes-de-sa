@@ -11,27 +11,50 @@ export function Home() {
         <img src="../img/logo-3.png" alt="instituto" />
       </div> 
 
-      <div className={styles.carrocel}>
-        <h1>NOTÍCIAS</h1>
-        <Carousel pause="hover">
-          <Carousel.Item interval={2500}>
-            <img src="../img/Pavimento-1.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
-          </Carousel.Item>
-          <Carousel.Item interval={2500}>
-            <img src="../img/Pavimento-2.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
-          </Carousel.Item>
-          <Carousel.Item interval={2500}>
-            <img src="../img/Pavimento-3.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
-          </Carousel.Item>
-        </Carousel>
-      </div> 
+      <div className={styles.noticias}>
+        <div className={styles.carousel}>
+          <h1>NOTÍCIAS</h1>
+          <Carousel
+          pause="hover" 
+          fade 
+          variant='dark'>
+            <Carousel.Item interval={5000}>
+              <img
+                className='d-block w-100' 
+                src="../img/noticias/1.jpg" alt="img 1" 
+              />
+              <Carousel.Caption>
+                <h3 className={styles.titleCarousel}></h3>
+                <p className={styles.texCarousel}></p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+              <img
+                className='d-block w-100' 
+                src="../img/noticias/2.jpg" alt="img 2" 
+              />
+              <Carousel.Caption>
+                <h3 className={styles.titleCarousel}></h3>
+                <p className={styles.texCarousel}></p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+              <img
+                className='d-block w-100' 
+                src="../img/noticias/3.jpg" alt="img 3" 
+              />
+              <Carousel.Caption>
+                <h3 className={styles.titleCarousel}></h3>
+                <p className={styles.texCarousel}></p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div> 
+      </div>
 
       <div className={styles.quemSomos}>
         <h1>QUEM SOMOS</h1>
-        <p>O instituto Mendes de Sá tem está focado na educação e na divulgação científica e no desenvolvimento do corpo humano para melhorar a performance. Tem como diferencial a organização de cursos com aulas teórias e práticas; a estimulação da correção postural, do vigor físico, na prevenção de lesões e fortalecimento muscular. fundada em Maio de 2022 por Israel Mendes e Rafaela de Sá, adiministratores do instituto.  </p>
+        <p>O Instituto Mendes de Sá é uma entidade brasileira privada criada com o propósito de levantar a bandeira do esporte e da educação como ferramenta de transformação, trabalhando o desenvolvimento humano, físico e cognitivo. Com foco no corpo e mente, oferece atividades coletivas, treinos, palestras e cursos com aulas teóricas e práticas nas áreas da saúde e meio ambiente, levando - de forma ética e responsável - a população Nilopolitana a dar novos passos através de domínios técnicos e científicos. Fundado em Maio de 2022, por Israel Mendes e Rafaela de Sá, atende crianças, jovens e adultos que buscam conhecimento, bem-estar ou melhora da performance.</p>
         <div className={styles.missaoVisao}>
           <div className={styles.visao}>
             <h1>Visão</h1>

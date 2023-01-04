@@ -121,7 +121,22 @@ export function Vigor() {
           </div>
         </div>
         <div className={styles.duvidas}>
-          
+          <div className={styles.carousel}>
+          <Carousel pause="hover">
+            <Carousel.Item interval={2500}>
+              <img src="../img/Pavimento-1.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
+            </Carousel.Item>
+            <Carousel.Item interval={2500}>
+              <img src="../img/Pavimento-2.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
+            </Carousel.Item>
+            <Carousel.Item interval={2500}>
+              <img src="../img/Pavimento-3.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
+            </Carousel.Item>
+          </Carousel>
+          </div>
         </div>
       </div>
     </section>

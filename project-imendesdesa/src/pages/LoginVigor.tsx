@@ -14,16 +14,7 @@ export function LoginVigor() {
           <a href="#" className={styles.forgotPassVigor}>Esqueceu a senha?</a>
           <input className={styles.Vigor} type="submit" value="Login" />
         </form>
-        <div className={styles.socialContainerVigor}>
-          <p>Ou entre pelas suas redes sociais</p>
-          <i className={styles.iconVigor}><FacebookLogo size={30}/></i>
-          <i className={styles.iconVigor}><GoogleLogo size={30}/></i>
-          <i className={styles.iconVigor}><LinkedinLogo size={30}/></i>
-        </div>
-        <div className={styles.registrarContainerVigor}>
-          <p>Ainda não tem uma conta?</p>
-          <a href="#">Registar</a>
-        </div>
+        
       </div>
     </section>
   )
