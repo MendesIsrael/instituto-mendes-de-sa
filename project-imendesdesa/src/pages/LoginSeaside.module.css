@@ -21,7 +21,7 @@ a:hover {
 .bodyLogin {
   height: 100vh;
   width: 100vw;
-  background: blue;
+  background-image: linear-gradient(var(--blue-100), var(--blue-500));
   display: flex;
   justify-content: center;
 }
@@ -29,16 +29,15 @@ a:hover {
 .loginContainer {
   background: var(--white);
   width: 400px;
-  height: 35rem;
+  height: 36rem;
   padding: 20px 30px;
   margin-top: 10vh;
   border-radius: 10px;
   text-align: center;
 }
 
-form {
-  margin-top: 30px;
-  margin-bottom: 40px;
+.loginContainer img {
+  height: 8rem;
 }
 
 label, input {
@@ -76,19 +75,29 @@ input[type="submit"] {
   border-radius: 20px;
   margin-top: 30px;
   color: white;
-  background: green;
+  background: var(--blue-300);
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background: greenyellow;
+  background: var(--blue-500);
+  color: var(--black);
   transition: .5s;
 }
 
 .socialContainer, .socialContainer p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.registerContainer p {
-  margin-bottom: 10px;
+.socialContainer i {
+  height: 40px;
+  width: 40px;
+  color: var(--blue-300);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.registrarContainer p {
+  padding: 0;
+  margin: 0;
 }

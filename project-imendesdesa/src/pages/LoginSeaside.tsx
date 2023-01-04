@@ -5,7 +5,7 @@ export function LoginSeaside() {
   return (
     <section className={styles.bodyLogin}>
       <div className={styles.loginContainer}>
-        <h1>Login</h1>
+        <img src="../img/logo-branca-seaside.png" alt="seaside" />
         <form action="">
           <label htmlFor="email">E-mai</label>
           <input type="email" name='email' className={styles.email} placeholder='Digite o seu email' autoComplete='on'/>
@@ -16,9 +16,9 @@ export function LoginSeaside() {
         </form>
         <div className={styles.socialContainer}>
           <p>Ou entre pelas suas redes sociais</p>
-          <FacebookLogo size={30}/>
-          <GoogleLogo size={30}/>
-          <LinkedinLogo size={30}/>
+          <i className={styles.icon}><FacebookLogo size={30}/></i>
+          <i className={styles.icon}><GoogleLogo size={30}/></i>
+          <i className={styles.icon}><LinkedinLogo size={30}/></i>
         </div>
         <div className={styles.registrarContainer}>
           <p>Ainda não tem uma conta?</p>
