@@ -75,7 +75,7 @@ export function Home() {
             <a href="/Vigor">
               <img src="../img/logo-vigor-preto.png" alt="body training" />
             </a>
-            <p>A Vigor Body Training te ajudará na preparação do seu corpo para você alcançar os seus objetivos. Utilizaremos as modalidades de Pilates, funcional, hidroginástica e lutas para promover o seu desenvolvimento corporal.</p>
+            <p>A Vigor Body Training está focada em aprimorar a consciência corporal e a coordenação motora, estimulando a melhora da performance de modo respeitoso e saudável, tendo como diferencial a estimulação da correção postural, a restauração do vigor físico e o fortalecimento muscular associado ao cuidado na prevenção de lesões. Utilizaremos as modalidades de Pilates, funcional, hidroginástica e lutas para promover o seu desenvolvimento corporal. Aqui te preparamos para superar os seus limites e alcançar seus objetivos!</p>
           </div>
           <div className={styles.botaoVigorSeaside}>
             <a href="/Seaside">

@@ -5,6 +5,7 @@ import styles from './Vigor.module.css';
 
 
 export function Vigor() {
+
   return (
     <section>
       <div className={styles.titleVigor}>
@@ -25,7 +26,6 @@ export function Vigor() {
               <h1>PILATES</h1>
               <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.
               </p>
-            
             </div>
             <div className={styles.atividades}>
                 <img src="../img/hidroGinastica.jpg" alt="hidroginástica" />
@@ -47,9 +47,6 @@ export function Vigor() {
             </div>
           </div>
 
-          <div className={styles.infoPilates}>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique non culpa adipisci ab harum perspiciatis fuga corrupti rem repellat est ut consequuntur distinctio eius, mollitia quos assumenda obcaecati, neque possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum vero voluptate, a eius obcaecati itaque! Aperiam, optio! Id iste alias adipisci eveniet dignissimos, veniam consectetur quia illo aut, iusto ratione.</p>
-          </div>
         </div>
 
         <div className={styles.pacotes}>
