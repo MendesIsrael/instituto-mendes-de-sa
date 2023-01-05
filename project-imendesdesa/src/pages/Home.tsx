@@ -81,7 +81,7 @@ export function Home() {
             <a href="/Seaside">
               <img src="../img/logo-branca-seaside.png" alt="educacional" />
             </a>
-            <p>A Seaside te ajudará na preparação da sua mente para você alcançar os seus objetivos. Utilizaremos as modalidades de palestras presenciais e cursos online para promover a sua capacitação intelectual.</p>
+            <p>A Seaside Serviços Educacionais está focada na divulgação de conhecimentos técnicos e científicos, visando a capacitação intelectual e o enriquecimento de currículo. Através de um corpo docente especializado, oferece eventos, palestras e cursos de curta duração, abordando temas como Educação Ambiental, Ecologia de praias, Macroinvertebrados bentônicos, Biologia e Conservação de Tartarugas Marinhas,  Desenvolvimento Motor, Suporte Básico de Vida e Primeiros Socorros, destinados a qualquer pessoa interessada, seja estudantes, professores ou comunidade em geral. Aqui, a educação acolhe e desperta futuros!</p>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ export function Home() {
         <div className={styles.rafaela}>
           <h1>Rafaela de Sá</h1>
           <div className={styles.imgText}>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi similique, delectus maxime nam illum amet incidunt dolor quia nemo quo. Possimus doloribus eligendi tempore iure dicta quos doloremque harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe quis distinctio dicta accusamus repellat tenetur aperiam, tempore necessitatibus, nulla fuga. Quibusdam nemo repudiandae atque voluptatem rerum ipsum molestias enim!</p>
+            <p>Bióloga (Bacharel e licenciatura), empresária, especialista em Ciências Ambientais em Áreas Costeiras, pós-graduanda em Biologia Marinha, mergulhadora certificada pela PADI com cursos em ecologia de organismos bentônicos, bioinvasão marinha e ameaças ao ecossistema de costão rochoso, macroinvertebrados bentônicos como ferramenta na avaliação da qualidade ambiental de ecossistemas costeiras, e educação ambiental em ecossistemas costeiros. Possui trabalhos publicados no campo da educação ambiental e ecossistema costeiro, com foco nos Manguezais da Baía de Guanabara. Já foi monitora no Herbário do Museu Nacional (UFRJ), monitora da disciplina de Poluição Marinha (FAMATH) e atuou no Coletivo Jovem durante a 3ª fase do Projeto UÇÁ. Atualmente, produz guias de campo e jogos didáticos, coordena a Seaside Serviços Educacionais e faz parte da Associação dos Protetores do Mar trabalhando como Educadora Ambiental, através do programa socioambiental da Petrobras.</p>
             <a href="https://www.instagram.com/rafaelasacoelho/" target="_blank">
               <img src="../img/rafaela.png" alt="rafaela" />
             </a>

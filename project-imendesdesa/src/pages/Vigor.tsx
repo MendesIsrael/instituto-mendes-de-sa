@@ -46,7 +46,7 @@ export function Vigor() {
                 </p>
             </div>
           </div>
-
+          
         </div>
 
         <div className={styles.pacotes}>
