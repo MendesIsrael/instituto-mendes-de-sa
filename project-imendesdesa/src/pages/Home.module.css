@@ -55,6 +55,7 @@
 .quemSomos p {
   text-align: justify;
   padding: 2rem;
+  text-indent: 2.5rem;
 }
 
 .missaoVisao {
@@ -64,6 +65,7 @@
 
 .missao, .visao {
   box-shadow: 0px 0px 2px black;
+  width: 50%;
 }
 
 /*-----botão das empresas-----------------------------------------------------------------------*/

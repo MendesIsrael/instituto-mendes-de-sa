@@ -28,10 +28,10 @@ a:hover {
 
 .loginContainer {
   background: var(--white);
-  width: 400px;
-  height: 36rem;
+  width: 350px;
+  height: 28rem;
   padding: 20px 30px;
-  margin-top: 10vh;
+  margin-top: 15vh;
   border-radius: 10px;
   text-align: center;
 }

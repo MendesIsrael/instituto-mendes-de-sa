@@ -14,16 +14,6 @@ export function LoginSeaside() {
           <a href="#" className={styles.forgotPass}>Esqueceu a senha?</a>
           <input type="submit" value="Login" />
         </form>
-        <div className={styles.socialContainer}>
-          <p>Ou entre pelas suas redes sociais</p>
-          <i className={styles.icon}><FacebookLogo size={30}/></i>
-          <i className={styles.icon}><GoogleLogo size={30}/></i>
-          <i className={styles.icon}><LinkedinLogo size={30}/></i>
-        </div>
-        <div className={styles.registrarContainer}>
-          <p>Ainda não tem uma conta?</p>
-          <a href="#">Registar</a>
-        </div>
       </div>
     </section>
   )

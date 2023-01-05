@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from './Vigor.module.css';
 
+
 export function Vigor() {
   return (
     <section>
@@ -17,13 +18,14 @@ export function Vigor() {
 
         <div className={styles.modalidades}>
           <h2>Conheça nossas modalidades</h2>
+
           <div className={styles.bodyModalidades}>
             <div className={styles.atividades}>
               <img src="../img/pilates.jpg" alt="pilates" />
               <h1>PILATES</h1>
               <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.
               </p>
-              <button>saiba +</button>
+            
             </div>
             <div className={styles.atividades}>
                 <img src="../img/hidroGinastica.jpg" alt="hidroginástica" />
@@ -44,10 +46,15 @@ export function Vigor() {
                 </p>
             </div>
           </div>
+
+          <div className={styles.infoPilates}>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique non culpa adipisci ab harum perspiciatis fuga corrupti rem repellat est ut consequuntur distinctio eius, mollitia quos assumenda obcaecati, neque possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum vero voluptate, a eius obcaecati itaque! Aperiam, optio! Id iste alias adipisci eveniet dignissimos, veniam consectetur quia illo aut, iusto ratione.</p>
+          </div>
         </div>
 
         <div className={styles.pacotes}>
           <h1>Planos</h1>
+
           <div className={styles.planos}>
             <div className={styles.itens}>
             <p className={styles.titlePacotes}></p><hr />
@@ -90,8 +97,10 @@ export function Vigor() {
             <p className={styles.precoPacotes}>R$ 500,00/mês</p>
             </div>
           </div>
+
           <div className={styles.areaAdicionais}>
             <h1>SERVIÇOS ADICIONAIS</h1>
+
             <div className={styles.pacotesAdicionais}>
               <div className={styles.adicionais}>
                 <ForkKnife size={50} color="white"/>
@@ -122,20 +131,71 @@ export function Vigor() {
         </div>
         <div className={styles.duvidas}>
           <div className={styles.carousel}>
-          <Carousel pause="hover">
-            <Carousel.Item interval={2500}>
-              <img src="../img/Pavimento-1.jpg" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
-            </Carousel.Item>
-            <Carousel.Item interval={2500}>
-              <img src="../img/Pavimento-2.jpg" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
-            </Carousel.Item>
-            <Carousel.Item interval={2500}>
-              <img src="../img/Pavimento-3.jpg" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati officiis vel, similique eius praesentium blanditiis doloremque ducimus harum earum, ullam provident, adipisci reprehenderit fugit suscipit! Nemo libero sapiente laboriosam?</p>
-            </Carousel.Item>
-          </Carousel>
+            <Carousel
+              pause="hover" 
+              fade 
+              variant='dark'>
+              <Carousel.Item interval={5000}>
+                <img
+                  className='d-block w-100' 
+                  src="../img/academia/academia01.jpg" alt="img 1" 
+                />
+                <Carousel.Caption>
+                  <h3 className={styles.titleCarousel1}>PILATES</h3>
+                  <p className={styles.texCarousel1}>Venha fazer parte dessa turma</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className='d-block w-100' 
+                  src="../img/academia/academia02.jpg" alt="img 2" 
+                />
+                <Carousel.Caption>
+                  <h3 className={styles.titleCarousel2}>FUNCIONAL</h3>
+                  <p className={styles.texCarousel2}> Venha conhcer os nossos equipamentos de ponta</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className='d-block w-100' 
+                  src="../img/academia/academia03.jpg" alt="img 3" 
+                />
+                <Carousel.Caption>
+                  <h3 className={styles.titleCarousel3}>FUNCIONAL</h3>
+                  <p className={styles.texCarousel3}>Turmas para homens e para mulheres</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className='d-block w-100' 
+                  src="../img/academia/academia04.jpg" alt="img 4" 
+                />
+                <Carousel.Caption>
+                  <h3 className={styles.titleCarousel4}>LUTA</h3>
+                  <p className={styles.texCarousel4}>Venha treinar Muy-thay como o melhor lutador da história</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className='d-block w-100' 
+                  src="../img/academia/academia05.jpg" alt="img 5" 
+                />
+                <Carousel.Caption>
+                  <h3 className={styles.titleCarousel5}>LUTA</h3>
+                  <p className={styles.texCarousel5}>Venha treinar até lenvantar o cinturão de campeão</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className='d-block w-100' 
+                  src="../img/academia/academia06.jpg" alt="img 6" 
+                />
+                <Carousel.Caption>
+                  <h3 className={styles.titleCarousel6}>FUCIONAL</h3>
+                  <p className={styles.texCarousel6}>Se torne a pessoa que é  referência de vigor</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
           </div>
         </div>
       </div>

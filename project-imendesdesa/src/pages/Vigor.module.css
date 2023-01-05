@@ -187,8 +187,28 @@ margin: -5px 0 2px 0;
 
 /*---------carrocel da academia---------------------------------------------------------------------------------*/
 
+.duvidas{
+  display: flex;
+  justify-content: center;
+  height: 430px;
+}
+.carousel {
+  display: block;
+  width: 600px;
+  padding: 30px;
+}
 
+.carousel h1 {
+  text-align: center;
+}
 
+.titleCarousel3, .titleCarousel4, .titleCarousel5 {
+  color: var(--white);
+}
+
+.texCarousel3, .texCarousel4, .texCarousel5 {
+  color: var(--white);
+}
 /*---------duvidas---------------------------------------------------------------------------------*/
 
 .duvidas {
