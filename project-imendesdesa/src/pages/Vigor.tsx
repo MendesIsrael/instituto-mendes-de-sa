@@ -2,6 +2,7 @@ import { YinYang, Barbell, Check, ForkKnife, X, User, UserCircle } from 'phospho
 import { Carousel } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from './Vigor.module.css';
+import * as AlertDialog from '@radix-ui/react-alert-dialog';
 
 
 export function Vigor() {
@@ -24,26 +25,98 @@ export function Vigor() {
             <div className={styles.atividades}>
               <img src="../img/pilates.jpg" alt="pilates" />
               <h1>PILATES</h1>
-              <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.
-              </p>
+              <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.</p>
+              <AlertDialog.Root>
+                <AlertDialog.Trigger asChild>
+                  <button className={styles.buttonViolet}>Saiba +</button>
+                </AlertDialog.Trigger>
+                <AlertDialog.Portal>
+                  <AlertDialog.Overlay className={styles.alertDialogOverlay} />
+                  <AlertDialog.Content className={styles.alertDialogContent}>
+                    <AlertDialog.Title className={styles.alertDialogTitle}>PILATES</AlertDialog.Title>
+                    <AlertDialog.Description className={styles.alertDialogDescription}>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quasi culpa voluptates officia sequi quia sint nihil libero vel, quos eligendi cum at. Explicabo ipsa obcaecati sequi, quia illo velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias amet perspiciatis eveniet similique deserunt dolores, error minus dolor excepturi voluptatibus mollitia in blanditiis officia nam voluptatem culpa eaque nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iure aperiam doloribus recusandae qui adipisci ea, dolores corporis, cupiditate expedita perferendis consequatur molestiae voluptas pariatur cum ducimus tempora deserunt vitae.
+                    </AlertDialog.Description>
+                    <div style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
+                      <AlertDialog.Cancel asChild>
+                        <button className={styles.buttonMauve}>Entendi</button>
+                      </AlertDialog.Cancel>
+                    </div>
+                  </AlertDialog.Content>
+                </AlertDialog.Portal>
+              </AlertDialog.Root>
             </div>
             <div className={styles.atividades}>
                 <img src="../img/hidroGinastica.jpg" alt="hidroginástica" />
                 <h1>HIDROGINÁSTICA</h1>
-                <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.
-                </p>
+                <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.</p>
+                <AlertDialog.Root>
+                <AlertDialog.Trigger asChild>
+                  <button className={styles.buttonViolet}>Saiba +</button>
+                </AlertDialog.Trigger>
+                <AlertDialog.Portal>
+                  <AlertDialog.Overlay className={styles.alertDialogOverlay} />
+                  <AlertDialog.Content className={styles.alertDialogContent}>
+                    <AlertDialog.Title className={styles.alertDialogTitle}>HIDROGINÁSTICA</AlertDialog.Title>
+                    <AlertDialog.Description className={styles.alertDialogDescription}>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quasi culpa voluptates officia sequi quia sint nihil libero vel, quos eligendi cum at. Explicabo ipsa obcaecati sequi, quia illo velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias amet perspiciatis eveniet similique deserunt dolores, error minus dolor excepturi voluptatibus mollitia in blanditiis officia nam voluptatem culpa eaque nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iure aperiam doloribus recusandae qui adipisci ea, dolores corporis, cupiditate expedita perferendis consequatur molestiae voluptas pariatur cum ducimus tempora deserunt vitae.
+                    </AlertDialog.Description>
+                    <div style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
+                      <AlertDialog.Cancel asChild>
+                        <button className={styles.buttonMauve}>Entendi</button>
+                      </AlertDialog.Cancel>
+                    </div>
+                  </AlertDialog.Content>
+                </AlertDialog.Portal>
+              </AlertDialog.Root>
             </div>
             <div className={styles.atividades}>
                 <img src="../img/funcional.jpg" alt="funcional" />
                 <h1>FUNCIONAL</h1>
-                <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.
-                </p>
+                <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, a consciência corporal e a coordenação motora, prevenindo e reduzindo os ricos de lesões e o alívio de dores crônicas.</p>
+                <AlertDialog.Root>
+                <AlertDialog.Trigger asChild>
+                  <button className={styles.buttonViolet}>Saiba +</button>
+                </AlertDialog.Trigger>
+                <AlertDialog.Portal>
+                  <AlertDialog.Overlay className={styles.alertDialogOverlay} />
+                  <AlertDialog.Content className={styles.alertDialogContent}>
+                    <AlertDialog.Title className={styles.alertDialogTitle}>FUNCIONAL</AlertDialog.Title>
+                    <AlertDialog.Description className={styles.alertDialogDescription}>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quasi culpa voluptates officia sequi quia sint nihil libero vel, quos eligendi cum at. Explicabo ipsa obcaecati sequi, quia illo velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias amet perspiciatis eveniet similique deserunt dolores, error minus dolor excepturi voluptatibus mollitia in blanditiis officia nam voluptatem culpa eaque nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iure aperiam doloribus recusandae qui adipisci ea, dolores corporis, cupiditate expedita perferendis consequatur molestiae voluptas pariatur cum ducimus tempora deserunt vitae.
+                    </AlertDialog.Description>
+                    <div style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
+                      <AlertDialog.Cancel asChild>
+                        <button className={styles.buttonMauve}>Entendi</button>
+                      </AlertDialog.Cancel>
+                    </div>
+                  </AlertDialog.Content>
+                </AlertDialog.Portal>
+              </AlertDialog.Root>
             </div>
             <div className={styles.atividades}>
                 <img src="../img/lutas.jpg" alt="lutas" />
                 <h1>LUTAS</h1>
-                <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, as técnicas de auto defesa e de combate e elevar o nome do atleta na região.
-                </p>
+                <p>Buscamos sempre desenvolver o seu potencial máximo - melhorando o condicionamento físico geral, as técnicas de auto defesa e de combate e elevar o nome do atleta na região.</p>
+                <AlertDialog.Root>
+                <AlertDialog.Trigger asChild>
+                  <button className={styles.buttonViolet}>Saiba +</button>
+                </AlertDialog.Trigger>
+                <AlertDialog.Portal>
+                  <AlertDialog.Overlay className={styles.alertDialogOverlay} />
+                  <AlertDialog.Content className={styles.alertDialogContent}>
+                    <AlertDialog.Title className={styles.alertDialogTitle}>LUTAS</AlertDialog.Title>
+                    <AlertDialog.Description className={styles.alertDialogDescription}>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quasi culpa voluptates officia sequi quia sint nihil libero vel, quos eligendi cum at. Explicabo ipsa obcaecati sequi, quia illo velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias amet perspiciatis eveniet similique deserunt dolores, error minus dolor excepturi voluptatibus mollitia in blanditiis officia nam voluptatem culpa eaque nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iure aperiam doloribus recusandae qui adipisci ea, dolores corporis, cupiditate expedita perferendis consequatur molestiae voluptas pariatur cum ducimus tempora deserunt vitae.
+                    </AlertDialog.Description>
+                    <div style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
+                      <AlertDialog.Cancel asChild>
+                        <button className={styles.buttonMauve}>Entendi</button>
+                      </AlertDialog.Cancel>
+                    </div>
+                  </AlertDialog.Content>
+                </AlertDialog.Portal>
+              </AlertDialog.Root>
             </div>
           </div>
           
@@ -126,6 +199,7 @@ export function Vigor() {
             </div>
           </div>
         </div>
+        
         <div className={styles.duvidas}>
           <div className={styles.carousel}>
             <Carousel
