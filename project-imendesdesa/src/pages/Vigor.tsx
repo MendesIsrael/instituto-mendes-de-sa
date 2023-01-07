@@ -35,7 +35,16 @@ export function Vigor() {
                   <AlertDialog.Content className={styles.alertDialogContent}>
                     <AlertDialog.Title className={styles.alertDialogTitle}>PILATES</AlertDialog.Title>
                     <AlertDialog.Description className={styles.alertDialogDescription}>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quasi culpa voluptates officia sequi quia sint nihil libero vel, quos eligendi cum at. Explicabo ipsa obcaecati sequi, quia illo velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias amet perspiciatis eveniet similique deserunt dolores, error minus dolor excepturi voluptatibus mollitia in blanditiis officia nam voluptatem culpa eaque nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iure aperiam doloribus recusandae qui adipisci ea, dolores corporis, cupiditate expedita perferendis consequatur molestiae voluptas pariatur cum ducimus tempora deserunt vitae.
+                    Pacote gold: 144 sessões em 6 meses, avaliação grátis = R$850,00<br />
+                    Pacote platinum: 72 sessões em 3 meses, avaliação grátis = R$500,00 <br />
+                    Pacote basic: 24 sessões em 2 meses, avaliação grátis = R$350,00<br />
+                    Mensal 5x/semana: R$200,00<br />
+                    Mensal 4x/semana: R$190,00<br />
+                    Mensal 3x/semana: R$150,00<br />
+                    Mensal 2x/semana: R$110,00<br />
+                    Mensal 1x/semana: R$80,00<br />
+                    Aula avulso: 100<br />
+                    Taxa de matrícula: R$20,00
                     </AlertDialog.Description>
                     <div style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
                       <AlertDialog.Cancel asChild>
@@ -199,14 +208,14 @@ export function Vigor() {
             </div>
           </div>
         </div>
-        
+
         <div className={styles.duvidas}>
           <div className={styles.carousel}>
             <Carousel
               pause="hover" 
               fade 
               variant='dark'>
-              <Carousel.Item interval={5000}>
+              <Carousel.Item interval={2000}>
                 <img
                   className='d-block w-100' 
                   src="../img/academia/academia01.jpg" alt="img 1" 
@@ -216,7 +225,7 @@ export function Vigor() {
                   <p className={styles.texCarousel1}>Venha fazer parte dessa turma</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={5000}>
+              <Carousel.Item interval={2000}>
                 <img
                   className='d-block w-100' 
                   src="../img/academia/academia02.jpg" alt="img 2" 
@@ -226,7 +235,7 @@ export function Vigor() {
                   <p className={styles.texCarousel2}> Venha conhcer os nossos equipamentos de ponta</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={5000}>
+              <Carousel.Item interval={2000}>
                 <img
                   className='d-block w-100' 
                   src="../img/academia/academia03.jpg" alt="img 3" 
@@ -236,7 +245,7 @@ export function Vigor() {
                   <p className={styles.texCarousel3}>Turmas para homens e para mulheres</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={5000}>
+              <Carousel.Item interval={2000}>
                 <img
                   className='d-block w-100' 
                   src="../img/academia/academia04.jpg" alt="img 4" 
@@ -246,7 +255,7 @@ export function Vigor() {
                   <p className={styles.texCarousel4}>Venha treinar Muy-thay como o melhor lutador da história</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={5000}>
+              <Carousel.Item interval={2000}>
                 <img
                   className='d-block w-100' 
                   src="../img/academia/academia05.jpg" alt="img 5" 
@@ -256,7 +265,7 @@ export function Vigor() {
                   <p className={styles.texCarousel5}>Venha treinar até lenvantar o cinturão de campeão</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={5000}>
+              <Carousel.Item interval={2000}>
                 <img
                   className='d-block w-100' 
                   src="../img/academia/academia06.jpg" alt="img 6" 
