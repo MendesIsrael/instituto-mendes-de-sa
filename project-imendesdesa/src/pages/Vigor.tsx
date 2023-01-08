@@ -184,7 +184,7 @@ export function Vigor() {
               <div className={styles.adicionais}>
                 <ForkKnife size={50} color="white"/>
                 <h2>Nutricionista</h2>
-                <p className={styles.explicacaoAdicionais}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem rerum architecto exercitationem laudantium aperiam quod similique? Dolorem quis magnam voluptates maxime saepe deleniti consequatur illum maiores, voluptatem, harum nihil!</p><hr />
+                <p className={styles.explicacaoAdicionais}>Estudamos os alimentos e seus efeitos no seu organismo. Prezamos pela</p><hr />
                 <div className={styles.precoAdicionais}>
                   <p>R$ 49,90/mês</p>
                 </div>
