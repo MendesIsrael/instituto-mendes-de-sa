@@ -17,7 +17,7 @@ export function NavBar() {
           <a href="https://www.instagram.com/institutomendesa/" target="_blank">
             <img src="../img/instagram.png" alt="instagram" />
           </a>
-          <a href="#" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100089147117778" target="_blank">
             <img src="../img/facebook.png" alt="facebook" />
           </a>
           <a href="mailto:institutomendesa@outlook.com" target="_blank">

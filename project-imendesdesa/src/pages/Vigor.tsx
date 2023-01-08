@@ -184,7 +184,7 @@ export function Vigor() {
               <div className={styles.adicionais}>
                 <ForkKnife size={50} color="white"/>
                 <h2>Nutricionista</h2>
-                <p className={styles.explicacaoAdicionais}>Estudamos os alimentos e seus efeitos no seu organismo. Prezamos pela</p><hr />
+                <p className={styles.explicacaoAdicionais}>Estudamos os alimentos e seus efeitos no seu organismo. Atuamos com nutrição clínica (voltada para o emagrecimento saudável, tratamento de patologias e condições clínicas), nutrição funcional (especialidade da nutrição que leva em conta a individualidade de cada paciente) e nutrição esportiva (voltada para pacientes que buscam otimizar a performance esportiva).</p><hr />
                 <div className={styles.precoAdicionais}>
                   <p>R$ 49,90/mês</p>
                 </div>
@@ -192,7 +192,7 @@ export function Vigor() {
               <div className={styles.adicionais}>
                 <YinYang size={50} color="white"/>
                 <h2>Massagista</h2>
-                <p className={styles.explicacaoAdicionais}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem rerum architecto exercitationem laudantium aperiam quod similique? Dolorem quis magnam voluptates maxime saepe deleniti consequatur illum maiores, voluptatem, harum nihil!</p><hr />
+                <p className={styles.explicacaoAdicionais}>A Liberação Miofascial é uma técnica de massagem que ajuda a relaxar os músculos. É uma técnica de massagem que aplica pressão em alguns pontos do corpo e ajuda a relaxar, maior mobilidade das articulações e alívio de dores crônicas, tensionais e pós treinos para que haja maior liberdade entre o músculo e a fáscia.</p><hr />
                 <div className={styles.precoAdicionais}>
                   <p>R$ 49,90/mês</p>
                 </div>
