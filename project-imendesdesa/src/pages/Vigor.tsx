@@ -1,4 +1,4 @@
-import { YinYang, Barbell, Check, ForkKnife, X, User, UserCircle } from 'phosphor-react';
+import { YinYang, Barbell, Check, ForkKnife, X, UserCircle } from 'phosphor-react';
 import { Carousel } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from './Vigor.module.css';
@@ -136,44 +136,44 @@ export function Vigor() {
 
           <div className={styles.planos}>
             <div className={styles.itens}>
-            <p className={styles.titlePacotes}></p><hr />
-            <p>Sem taxas de matrícula</p><hr />
-            <p>Acesso a todas as aulas coletivas</p><hr />
-            <p>Sem restrição de horários</p><hr />
-            <p>Aula experimental</p><hr />
-            <p>Acompanhamento nutricional</p><hr />
-            <p>Massagem de liberação mio facial</p><hr />
-            <p className={styles.precoPacotes}></p>
+              <p className={styles.titlePacotes}></p><hr />
+              <p>Sem taxas de matrícula</p><hr />
+              <p>Acesso a todas as aulas coletivas</p><hr />
+              <p>Sem restrição de horários</p><hr />
+              <p>Aula experimental</p><hr />
+              <p>Acompanhamento nutricional</p><hr />
+              <p>Massagem de liberação mio facial</p><hr />
+              <p className={styles.precoPacotes}></p>
             </div>
             <div className={styles.pacoteDireitos}>
-            <p className={styles.titlePacotes}>PACOTE<br/>BRONZE</p><hr />
-            <p><Check/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p className={styles.precoPacotes}>R$ 100,00/mês</p>
+              <p className={styles.titlePacotes}>PACOTE<br/>BRONZE</p><hr />
+              <p><Check/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p className={styles.precoPacotes}>R$ 100,00/mês</p>
             </div>
             <div className={styles.pacoteDireitos}>
-            <p className={styles.titlePacotes}>PACOTE<br/>PRATA</p><hr />
-            <p><Check/></p><hr />
-            <p><Check/></p><hr />
-            <p><Check/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p><X color="red"/></p><hr />
-            <p className={styles.precoPacotes}>R$ 300,00/mês</p>
+              <p className={styles.titlePacotes}>PACOTE<br/>PRATA</p><hr />
+              <p><Check/></p><hr />
+              <p><Check/></p><hr />
+              <p><Check/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p><X color="red"/></p><hr />
+              <p className={styles.precoPacotes}>R$ 300,00/mês</p>
             </div>
             <div className={styles.pacoteDireitos}>
-            <p className={styles.titlePacotes}>PACOTE<br/>OURO</p><hr />
-            <p><Check/></p><hr />
-            <p><Check/></p><hr />
-            <p><Check/></p><hr />
-            <p><Check/></p><hr />
-            <p><Check/></p><hr />
-            <p><Check/></p><hr />
-            <p className={styles.precoPacotes}>R$ 500,00/mês</p>
+              <p className={styles.titlePacotes}>PACOTE<br/>OURO</p><hr />
+              <p><Check/></p><hr />
+              <p><Check/></p><hr />
+              <p><Check/></p><hr />
+              <p><Check/></p><hr />
+              <p><Check/></p><hr />
+              <p><Check/></p><hr />
+              <p className={styles.precoPacotes}>R$ 500,00/mês</p>
             </div>
           </div>
 
