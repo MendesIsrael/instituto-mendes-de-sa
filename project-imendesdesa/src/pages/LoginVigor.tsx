@@ -14,7 +14,6 @@ export function LoginVigor() {
           <a href="#" className={styles.forgotPassVigor}>Esqueceu a senha?</a>
           <input className={styles.Vigor} type="submit" value="Login" />
         </form>
-        
       </div>
     </section>
   )
